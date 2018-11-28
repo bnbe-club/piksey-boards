@@ -21,6 +21,12 @@ Search for "Piksey Boards" and you should be able to locate an entry by "Bits N 
 **3. Select the boards** <br/>
 The new boards should now be available for use. Select the appropriate board under the *"Piksey Boards"* section (Windows: *Tools->Board*, OS X: *Tools->Board*). If you are using Windows, then you will also need to specify the COM Port like always (*Tools->Port*)
 
- That's it! You can now start uploading your code.
+That's it! You can now start uploading your code.
+
+### Backward Compatibility
+
+The Piksey Pico and Nano are designed with the Microchip ATmega328PB microcontroller. This is a newer microcontroller and is not 100% pin compatible with the older ATmega328P commonly found in the Arduino Uno and Arduino Nano. The ATmega328PB has more features and is software compatible with the older ATmega328 which means that existing sketches for the Arduino Uno and Nano will run without the need to change the code. More information about the differences between the two microcontrollers can be found in the following document:
+
+[Differences Between ATmega328PB and ATmega328P - AT15007](https://github.com/bnbe-club/piksey-boards/docs/Atmel-42559-Differences-between-ATmega328P-and-ATmega328PB_ApplicationNote_AT15007.pdf)
 
 
