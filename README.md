@@ -2,7 +2,7 @@
 The files contained in this repository have been derived from the following repository. <br>
 https://github.com/watterott/ATmega328PB-Testing
 
-### Installation on Arduino IDE 1.8+
+### Installing On Arduino IDE 1.8+
 
 **1. Add URL for Piksey Boards** <br/>
 Start by adding the following URL to the Arduino Boards Manager. You can do this by opening up the preferences window (Windows: *File->Preferences*, OS X: *Arduino->Preferences*) and locating the "Additional Boards Manager URLs" section. 
