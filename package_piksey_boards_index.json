@@ -3,9 +3,9 @@
     {
       "name": "Piksey Boards",
       "maintainer": "Bits N Blobs Electronics",
-      "websiteURL": "https://github.com/bnbe-club/piksey-boards",
+      "websiteURL": "https://bnbe.club",
       "email": "",
-      "help": {"online": "https://github.com/bnbe-club/piksey-boards"},
+      "help": {"online": "https://github.com/bnbe-club/piksey-boards/blob/master/README.md"},
 
       "platforms": [
         {
@@ -13,7 +13,7 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "contributed",
-          "help": {"online": "https://github.com/bnbe-club/piksey-boards"},
+          "help": {"online": "https://github.com/bnbe-club/piksey-boards/blob/master/README.md"},
           "url": "https://github.com/bnbe-club/piksey-boards/raw/master/m328pb.zip",
           "archiveFileName": "m328pb-1.0.0.zip",
           "size": "111212",
