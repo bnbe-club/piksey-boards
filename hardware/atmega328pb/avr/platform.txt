@@ -1,4 +1,4 @@
-name=ATmega328PB
+name=Piksey Boards
 version=1.0.0
 
 # AVR compile variables

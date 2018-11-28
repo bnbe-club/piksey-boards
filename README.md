@@ -4,13 +4,23 @@ https://github.com/watterott/ATmega328PB-Testing
 
 ### Installation on Arduino IDE 1.8+
 
-1. Add the following URL to the Arduino Boards Manager (*File->Preferences*).
+**1. Add URL for Piksey Boards**
+Start by adding the following URL to the Arduino Boards Manager. You can do this by opening up the preferences window (Windows: *File->Preferences*, OS X: *Arduino->Preferences*) and locating the "Additional Boards Manager URLs" section. 
+
+If you already have an existing URL then simply add this URL to a new line. Click OK when done.
+
    ```
    https://github.com/bnbe-club/piksey-boards/raw/master/package_piksey_boards_index.json
    ```
 
-2. Update the **Arduino AVR Boards** to version **1.6.22** or higher via the Boards Manager (*Tools->Boards->Boards Manager*).
+**2. Install the boards**
+Next, open up the boards manager (Windows: *Tools->Board->Boards Manager*, OS X: *Tools->Board->Boards Manager*)
 
-3. Install the **Piksey Boards** via the Boards Manager (*Tools->Boards->Boards Manager*).
+Search for "Piksey Boards" and you should be able to locate an entry by "Bits N Blobs Electronics". Install the latest version (1.0.0) and close the window when done.
+
+**3. Select the boards**
+The new boards should now be available for use. Select the appropriate board under the *"Piksey Boards"* section (Windows: *Tools->Board*, OS X: *Tools->Board*). If you are using Windows, then you will also need to specify the COM Port like always (*Tools->Port*)
+
+ That's it! You can now start uploading your code.
 
 
