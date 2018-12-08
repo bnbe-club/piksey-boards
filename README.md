@@ -1,6 +1,4 @@
 # Piksey Boards
-The files contained in this repository have been derived from the following repository. <br>
-https://github.com/watterott/ATmega328PB-Testing
 
 ### Installing On Arduino IDE 1.8+
 
@@ -16,7 +14,7 @@ If you already have an existing URL then simply add this URL to a new line. Clic
 **2. Install the boards** <br/>
 Next, open up the boards manager (Windows: *Tools->Board->Boards Manager*, OS X: *Tools->Board->Boards Manager*)
 
-Search for "Piksey Boards" and you should be able to locate an entry by "Bits N Blobs Electronics". Install the latest version (1.0.0) and close the window when done.
+Search for "Piksey Boards" and you should be able to locate an entry by "Bits N Blobs Electronics". Install the latest version (2.0.0) and close the window when done.
 
 **3. Select the boards** <br/>
 The new boards should now be available for use. Select the appropriate board under the *"Piksey Boards"* section (Windows: *Tools->Board*, OS X: *Tools->Board*). If you are using Windows, then you will also need to specify the COM Port like always (*Tools->Port*)

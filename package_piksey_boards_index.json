@@ -11,12 +11,26 @@
         {
           "name": "Piksey Boards",
           "architecture": "avr",
+          "version": "2.0.0",
+          "category": "contributed",
+          "help": {"online": "https://github.com/bnbe-club/piksey-boards/blob/master/README.md"},
+          "url": "https://github.com/bnbe-club/piksey-boards/raw/master/piksey_boards_2.0.0.zip",
+          "archiveFileName": "piksey_boards_2.0.0.zip",
+          "size": "97275",
+          "boards": [
+            {"name": "Piksey Pico"},
+            {"name": "Piksey Nano"}
+          ]
+        },
+        {
+          "name": "Piksey Boards",
+          "architecture": "avr",
           "version": "1.0.0",
           "category": "contributed",
           "help": {"online": "https://github.com/bnbe-club/piksey-boards/blob/master/README.md"},
-          "url": "https://github.com/bnbe-club/piksey-boards/raw/master/m328pb.zip",
+          "url": "https://github.com/bnbe-club/piksey-boards/raw/92b26e3f51fcb2c89e6086edf7585721e7ae931a/m328pb.zip",
           "archiveFileName": "m328pb-1.0.0.zip",
-          "size": "111212",
+          "size": "84531",
           "boards": [
             {"name": "Piksey Pico"},
             {"name": "Piksey Nano"}
@@ -25,39 +39,7 @@
       ],
 
       "tools": [
-        {
-          "name":"avr-gcc",
-          "version":"4.9.2",
-          "systems": [
-            {
-                "host":"i686-mingw32",
-                "url":"https://github.com/bnbe-club/piksey-boards/blob/358b5272361d8f0c8ec868cbc1da9922aa806595/sw/avr-gcc-4.9.2-win32.zip?raw=true",
-                "archiveFileName":"avr-gcc-4.9.2-win32.zip",
-                "checksum":"MD5:e4786528c0a4cb009eb441da07d82ced",
-                "size":"43832130"
-            },
-            {
-                "host":"x86_64-linux-gnu",
-                "url":"https://github.com/bnbe-club/piksey-boards/blob/358b5272361d8f0c8ec868cbc1da9922aa806595/sw/avr-gcc-4.9.2-linux_64.tar.bz2?raw=true",
-                "archiveFileName":"avr-gcc-4.9.2-linux_64.tar.bz2",
-                "checksum":"MD5:07cacdecda66b82f8addf5bbd8a6e210",
-                "size":"25084308"
-            }
-          ]
-        },
-        {
-          "name":"avrdude",
-          "version":"6.3.0",
-          "systems": [
-            {
-                "host":"i686-mingw32",
-                "url":"https://github.com/bnbe-club/piksey-boards/blob/358b5272361d8f0c8ec868cbc1da9922aa806595/sw/avrdude-6.3.0-win32.zip?raw=true",
-                "archiveFileName":"avrdude-6.3.0-win32.zip",
-                "checksum":"MD5:ec665463025eaafb940e0a3e9ef1fee5",
-                "size":"220965"
-            }
-          ]
-        }
+
       ]
     }
   ]
